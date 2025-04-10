@@ -8,5 +8,5 @@ let object = {
 console.log("log", num);
 num = "new value";
 console.log(num);
-// let body = document.getElementsByTagName("body");
-// body[0].innerHTML = "Your Name";
+let body = document.getElementsByTagName("body");
+body[0].innerHTML = "Your Name";
